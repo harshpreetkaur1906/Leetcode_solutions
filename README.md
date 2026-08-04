@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0739-daily-temperatures) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1588-sum-of-all-odd-length-subarrays) |
+| [2778-sum-of-squares-of-special-elements](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/2778-sum-of-squares-of-special-elements) |
 ## Binary Search
 |  |
 | ------- |
@@ -194,4 +195,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0051-n-queens](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0052-n-queens-ii) |
+## Enumeration
+|  |
+| ------- |
+| [2778-sum-of-squares-of-special-elements](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/2778-sum-of-squares-of-special-elements) |
 <!---LeetCode Topics End-->
