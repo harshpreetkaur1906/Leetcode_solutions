@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0217-contains-duplicate) |
 | [1640-check-array-formation-through-concatenation](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1640-check-array-formation-through-concatenation) |
 | [1763-longest-nice-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1763-longest-nice-substring) |
+| [1796-second-largest-digit-in-a-string](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1796-second-largest-digit-in-a-string) |
 ## String
 |  |
 | ------- |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0005-longest-palindromic-substring) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1763-longest-nice-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1763-longest-nice-substring) |
+| [1796-second-largest-digit-in-a-string](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1796-second-largest-digit-in-a-string) |
 | [2259-remove-digit-from-number-to-maximize-result](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 ## Sliding Window
 |  |
