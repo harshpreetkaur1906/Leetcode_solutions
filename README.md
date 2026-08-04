@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0217-contains-duplicate](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0217-contains-duplicate) |
 | [1763-longest-nice-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1763-longest-nice-substring) |
 ## String
 |  |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0088-merge-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0088-merge-sorted-array) |
+| [0217-contains-duplicate](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0283-move-zeroes) |
 | [0739-daily-temperatures](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0739-daily-temperatures) |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0088-merge-sorted-array) |
+| [0217-contains-duplicate](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0217-contains-duplicate) |
 ## Queue
 |  |
 | ------- |
