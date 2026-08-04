@@ -72,15 +72,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1763-longest-nice-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1763-longest-nice-substring) |
 ## String
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0005-longest-palindromic-substring) |
+| [1763-longest-nice-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1763-longest-nice-substring) |
 ## Sliding Window
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1763-longest-nice-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1763-longest-nice-substring) |
 ## Array
 |  |
 | ------- |
@@ -96,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0004-median-of-two-sorted-arrays) |
+| [1763-longest-nice-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1763-longest-nice-substring) |
 ## Two Pointers
 |  |
 | ------- |
@@ -123,4 +127,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0155-min-stack) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1763-longest-nice-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1763-longest-nice-substring) |
 <!---LeetCode Topics End-->
