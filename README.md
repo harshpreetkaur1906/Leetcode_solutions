@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0002-add-two-numbers) |
+| [0069-sqrtx](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0069-sqrtx) |
 | [0367-valid-perfect-square](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0367-valid-perfect-square) |
 | [0633-sum-of-square-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0633-sum-of-square-numbers) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1588-sum-of-all-odd-length-subarrays) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0069-sqrtx) |
 | [0367-valid-perfect-square](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0367-valid-perfect-square) |
 | [0633-sum-of-square-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0633-sum-of-square-numbers) |
 ## Divide and Conquer
@@ -204,4 +206,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2778-sum-of-squares-of-special-elements](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/2778-sum-of-squares-of-special-elements) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
