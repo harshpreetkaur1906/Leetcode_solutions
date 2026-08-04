@@ -180,4 +180,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Backtracking
+|  |
+| ------- |
+| [0052-n-queens-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0052-n-queens-ii) |
+## Algorithm X
+|  |
+| ------- |
+| [0052-n-queens-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0052-n-queens-ii) |
 <!---LeetCode Topics End-->
