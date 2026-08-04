@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0002-add-two-numbers) |
+| [0050-powx-n](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0069-sqrtx) |
 | [0367-valid-perfect-square](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0367-valid-perfect-square) |
 | [0633-sum-of-square-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0633-sum-of-square-numbers) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0002-add-two-numbers) |
+| [0050-powx-n](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0206-reverse-linked-list) |
 ## Hash Table
 |  |
