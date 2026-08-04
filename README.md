@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0035-search-insert-position) |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0088-merge-sorted-array) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0217-contains-duplicate](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0217-contains-duplicate) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0005-longest-palindromic-substring) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 ## Manacher
@@ -172,4 +174,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0084-largest-rectangle-in-histogram) |
+## Greedy
+|  |
+| ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 <!---LeetCode Topics End-->
