@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0217-contains-duplicate](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0217-contains-duplicate) |
+| [1640-check-array-formation-through-concatenation](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1640-check-array-formation-through-concatenation) |
 | [1763-longest-nice-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1763-longest-nice-substring) |
 ## String
 |  |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0739-daily-temperatures) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1588-sum-of-all-odd-length-subarrays) |
+| [1640-check-array-formation-through-concatenation](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1640-check-array-formation-through-concatenation) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/2778-sum-of-squares-of-special-elements) |
 ## Binary Search
 |  |
