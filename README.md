@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0088-merge-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0283-move-zeroes) |
 | [0739-daily-temperatures](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0739-daily-temperatures) |
 ## Binary Search
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0005-longest-palindromic-substring) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0088-merge-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0283-move-zeroes) |
 ## Dynamic Programming
 |  |
@@ -131,4 +133,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1763-longest-nice-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1763-longest-nice-substring) |
+## Sorting
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
