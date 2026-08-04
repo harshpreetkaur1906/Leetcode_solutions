@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0002-add-two-numbers) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0206-reverse-linked-list](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0206-reverse-linked-list) |
 ## Math
 |  |
 | ------- |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0002-add-two-numbers) |
+| [0206-reverse-linked-list](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0206-reverse-linked-list) |
 ## Hash Table
 |  |
 | ------- |
