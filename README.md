@@ -55,6 +55,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0002-add-two-numbers) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+## Math
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
