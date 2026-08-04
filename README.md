@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0005-longest-palindromic-substring) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1763-longest-nice-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1763-longest-nice-substring) |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 ## Sliding Window
 |  |
 | ------- |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 ## Backtracking
 |  |
 | ------- |
@@ -222,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/2778-sum-of-squares-of-special-elements) |
 ## Newton's Method
 |  |
