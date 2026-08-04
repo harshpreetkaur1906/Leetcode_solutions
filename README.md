@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -37,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0958-check-completeness-of-a-binary-tree](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0958-check-completeness-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
