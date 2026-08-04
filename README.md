@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0002-add-two-numbers) |
+| [0061-rotate-list](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0061-rotate-list) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0005-longest-palindromic-substring) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0061-rotate-list](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0061-rotate-list) |
 | [0088-merge-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0283-move-zeroes) |
