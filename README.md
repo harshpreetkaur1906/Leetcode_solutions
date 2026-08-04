@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0155-min-stack) |
+| [0232-implement-queue-using-stacks](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0739-daily-temperatures](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0155-min-stack) |
+| [0232-implement-queue-using-stacks](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0232-implement-queue-using-stacks) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -138,4 +140,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0088-merge-sorted-array) |
+## Queue
+|  |
+| ------- |
+| [0232-implement-queue-using-stacks](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
