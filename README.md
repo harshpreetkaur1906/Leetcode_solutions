@@ -7,16 +7,23 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0107-binary-tree-level-order-traversal-ii) |
+| [0199-binary-tree-right-side-view](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0199-binary-tree-right-side-view) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0107-binary-tree-level-order-traversal-ii) |
+| [0199-binary-tree-right-side-view](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0199-binary-tree-right-side-view) |
 ## Binary Tree
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0107-binary-tree-level-order-traversal-ii) |
+| [0199-binary-tree-right-side-view](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0199-binary-tree-right-side-view) |
+## Depth-First Search
+|  |
+| ------- |
+| [0199-binary-tree-right-side-view](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0199-binary-tree-right-side-view) |
 <!---LeetCode Topics End-->
