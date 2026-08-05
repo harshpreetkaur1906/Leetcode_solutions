@@ -1,48 +1,31 @@
-<h2><a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays">1693. Sum of All Odd Length Subarrays</a></h2><h3>Easy</h3><hr><p>Given an array of positive integers <code>arr</code>, return <em>the sum of all possible <strong>odd-length subarrays</strong> of </em><code>arr</code>.</p>
+1588. Sum of All Odd Length Subarrays
+      
+ Intuition
 
-<p>A <strong>subarray</strong> is a contiguous subsequence of the array.</p>
+The problem asks for the sum of all odd-length subarrays. Instead of generating every possible subarray, I observed that each element contributes to multiple odd-length subarrays. By calculating how many odd-length subarrays include each element, the final answer can be obtained efficiently.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+ Approach
+ 
+Traverse every element of the array.
 
-<pre>
-<strong>Input:</strong> arr = [1,4,2,5,3]
-<strong>Output:</strong> 58
-<strong>Explanation: </strong>The odd-length subarrays of arr and their sums are:
-[1] = 1
-[4] = 4
-[2] = 2
-[5] = 5
-[3] = 3
-[1,4,2] = 7
-[4,2,5] = 11
-[2,5,3] = 10
-[1,4,2,5,3] = 15
-If we add all these together we get 1 + 4 + 2 + 5 + 3 + 7 + 11 + 10 + 15 = 58</pre>
+For each element, calculate the number of possible starting positions.
 
-<p><strong class="example">Example 2:</strong></p>
+Calculate the number of possible ending positions.
 
-<pre>
-<strong>Input:</strong> arr = [1,2]
-<strong>Output:</strong> 3
-<b>Explanation: </b>There are only 2 subarrays of odd length, [1] and [2]. Their sum is 3.</pre>
+Determine the total number of subarrays containing the current element.
 
-<p><strong class="example">Example 3:</strong></p>
+Find how many of these subarrays have odd length.
 
-<pre>
-<strong>Input:</strong> arr = [10,11,12]
-<strong>Output:</strong> 66
-</pre>
+Multiply the element by its contribution count.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Add the contribution to the final answer.
 
-<ul>
-	<li><code>1 &lt;= arr.length &lt;= 100</code></li>
-	<li><code>1 &lt;= arr[i] &lt;= 1000</code></li>
-</ul>
+Return the computed sum.
 
-<p>&nbsp;</p>
-<p><strong>Follow up:</strong></p>
+Time Complexity
 
-<p>Could you solve this problem in O(n) time complexity?</p>
+O(n), where n is the size of the array.
+
+Space Complexity
+
+O(1), since only a few extra variables are used.
