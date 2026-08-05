@@ -1,28 +1,31 @@
-<h2><a href="https://leetcode.com/problems/check-completeness-of-a-binary-tree">998. Check Completeness of a Binary Tree</a></h2><h3>Medium</h3><hr><p>Given the <code>root</code> of a binary tree, determine if it is a <em>complete binary tree</em>.</p>
+0958. Check Completeness of a Binary Tree
+     
+Intuition
 
-<p>In a <strong><a href="http://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees" target="_blank">complete binary tree</a></strong>, every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between <code>1</code> and <code>2<sup>h</sup></code> nodes inclusive at the last level <code>h</code>.</p>
+A complete binary tree is one where all levels are completely filled except possibly the last level, and all nodes in the last level are as far left as possible. While thinking about the problem, I realized that a level order traversal would help verify this property. During traversal, once a NULL node is encountered, no non-NULL node should appear afterward. If it does, the tree is not complete.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-1.png" style="width: 180px; height: 145px;" />
-<pre>
-<strong>Input:</strong> root = [1,2,3,4,5,6]
-<strong>Output:</strong> true
-<strong>Explanation:</strong> Every level before the last is full (ie. levels with node-values {1} and {2, 3}), and all nodes in the last level ({4, 5, 6}) are as far left as possible.
-</pre>
+ Approach
+ 
+Check if the tree is empty. If it is, return true.
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/complete-binary-tree-2.png" style="width: 200px; height: 145px;" />
-<pre>
-<strong>Input:</strong> root = [1,2,3,4,5,null,7]
-<strong>Output:</strong> false
-<strong>Explanation:</strong> The node with value 7 isn&#39;t as far left as possible.
-</pre>
+Create a queue and insert the root node.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Perform a level order traversal.
 
-<ul>
-	<li>The number of nodes in the tree is in the range <code>[1, 100]</code>.</li>
-	<li><code>1 &lt;= Node.val &lt;= 1000</code></li>
-</ul>
+Push both valid child nodes and NULL nodes into the queue.
+
+Maintain a flag to indicate whether a NULL node has been encountered.
+
+If a NULL node is found, set the flag.
+
+If any non-NULL node appears after the flag has been set, return false.
+
+If the traversal finishes without violating this condition, return true.
+
+Time Complexity
+
+O(n), where n is the number of nodes in the tree.
+
+Space Complexity
+
+O(n), due to the queue used for level order traversal.
