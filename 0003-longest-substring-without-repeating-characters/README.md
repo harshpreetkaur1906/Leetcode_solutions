@@ -1,35 +1,23 @@
-<h2><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters">3. Longest Substring Without Repeating Characters</a></h2><h3>Medium</h3><hr><p>Given a string <code>s</code>, find the length of the <strong>longest</strong> <span data-keyword="substring-nonempty"><strong>substring</strong></span> without duplicate characters.</p>
+Longest Substring Without Repeating Characters
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+1. Intuition
 
-<pre>
-<strong>Input:</strong> s = &quot;abcabcbb&quot;
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> The answer is &quot;abc&quot;, with the length of 3. Note that <code>&quot;bca&quot;</code> and <code>&quot;cab&quot;</code> are also correct answers.
-</pre>
+The objective is to find the longest substring that contains only unique characters. Instead of checking every possible substring, I used the sliding window technique. By maintaining a window of unique characters and adjusting it whenever a duplicate is found, the solution becomes much more efficient.
 
-<p><strong class="example">Example 2:</strong></p>
+2. Approach
+   
+-Initialize two pointers to represent the current window.
+-Use a hash map to store the last occurrence of each character.
+-Traverse the string using the right pointer.
+-If the current character is already present within the current window, move the left pointer to the position after its previous occurrence.
+-Update the last occurrence of the current character.
+-Calculate the current window length and update the maximum length whenever a longer substring is found.
+-Continue until the entire string has been processed.
 
-<pre>
-<strong>Input:</strong> s = &quot;bbbbb&quot;
-<strong>Output:</strong> 1
-<strong>Explanation:</strong> The answer is &quot;b&quot;, with the length of 1.
-</pre>
+3. Time Complexity
 
-<p><strong class="example">Example 3:</strong></p>
+O(n), where n is the length of the string, since each character is visited at most once.
 
-<pre>
-<strong>Input:</strong> s = &quot;pwwkew&quot;
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> The answer is &quot;wke&quot;, with the length of 3.
-Notice that the answer must be a substring, &quot;pwke&quot; is a subsequence and not a substring.
-</pre>
+4. Space Complexity
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>0 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> consists of English letters, digits, symbols and spaces.</li>
-</ul>
+O(min(n, m)), where m is the size of the character set, because the hash map stores the characters present in the current window.
