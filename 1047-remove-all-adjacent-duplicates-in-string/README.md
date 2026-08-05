@@ -1,30 +1,29 @@
-<h2><a href="https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string">1128. Remove All Adjacent Duplicates In String</a></h2><h3>Easy</h3><hr><p>You are given a string <code>s</code> consisting of lowercase English letters. A <strong>duplicate removal</strong> consists of choosing two <strong>adjacent</strong> and <strong>equal</strong> letters and removing them.</p>
+1047. Remove All Adjacent Duplicates In String
+    
+ Intuition
 
-<p>We repeatedly make <strong>duplicate removals</strong> on <code>s</code> until we no longer can.</p>
+The problem requires repeatedly removing adjacent duplicate characters until no duplicates remain. A stack is well suited for this because it allows easy comparison with the most recently processed character. If the current character matches the top of the stack, both are removed; otherwise, the character is added to the stack.
 
-<p>Return <em>the final string after all such duplicate removals have been made</em>. It can be proven that the answer is <strong>unique</strong>.</p>
+ Approach
+ 
+Create an empty stack.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Traverse the string character by character.
 
-<pre>
-<strong>Input:</strong> s = &quot;abbaca&quot;
-<strong>Output:</strong> &quot;ca&quot;
-<strong>Explanation:</strong> 
-For example, in &quot;abbaca&quot; we could remove &quot;bb&quot; since the letters are adjacent and equal, and this is the only possible move.  The result of this move is that the string is &quot;aaca&quot;, of which only &quot;aa&quot; is possible, so the final string is &quot;ca&quot;.
-</pre>
+If the stack is not empty and the top character matches the current character, remove the top element.
 
-<p><strong class="example">Example 2:</strong></p>
+Otherwise, push the current character onto the stack.
 
-<pre>
-<strong>Input:</strong> s = &quot;azxxzy&quot;
-<strong>Output:</strong> &quot;ay&quot;
-</pre>
+After processing all characters, construct the final string from the remaining stack elements.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Reverse the constructed string since stack elements are retrieved in reverse order.
 
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> consists of lowercase English letters.</li>
-</ul>
+Return the final string.
+
+Time Complexity
+
+O(n), where n is the length of the string.
+
+Space Complexity
+
+O(n), because the stack may store all characters.
