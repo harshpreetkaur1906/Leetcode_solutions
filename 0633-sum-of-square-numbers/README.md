@@ -1,24 +1,31 @@
-<h2><a href="https://leetcode.com/problems/sum-of-square-numbers">633. Sum of Square Numbers</a></h2><h3>Medium</h3><hr><p>Given a non-negative integer <code>c</code>, decide whether there&#39;re two integers <code>a</code> and <code>b</code> such that <code>a<sup>2</sup> + b<sup>2</sup> = c</code>.</p>
+0633. Sum of Square Numbers
+     
+Intuition
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+The objective is to determine whether a given integer can be represented as the sum of the squares of two integers. Instead of checking every possible pair, I used the two-pointer technique. Since the square values increase with larger numbers, moving the pointers based on the current sum helps eliminate unnecessary calculations and makes the solution much more efficient.
 
-<pre>
-<strong>Input:</strong> c = 5
-<strong>Output:</strong> true
-<strong>Explanation:</strong> 1 * 1 + 2 * 2 = 5
-</pre>
+ Approach
+ 
+Initialize one pointer at 0.
 
-<p><strong class="example">Example 2:</strong></p>
+Initialize another pointer at the square root of the given number.
 
-<pre>
-<strong>Input:</strong> c = 3
-<strong>Output:</strong> false
-</pre>
+Calculate the sum of the squares of both pointers.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+If the sum is equal to the given number, return true.
 
-<ul>
-	<li><code>0 &lt;= c &lt;= 2<sup>31</sup> - 1</code></li>
-</ul>
+If the sum is smaller than the required value, move the left pointer forward.
+
+If the sum is greater, move the right pointer backward.
+
+Continue until both pointers cross each other.
+
+If no valid pair is found, return false.
+
+Time Complexity
+
+O(√c), where c is the given number.
+
+Space Complexity
+
+O(1), since only a few variables are used.
