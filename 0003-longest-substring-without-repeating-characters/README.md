@@ -7,11 +7,17 @@ The objective is to find the longest substring that contains only unique charact
 2. Approach
    
 -Initialize two pointers to represent the current window.
+
 -Use a hash map to store the last occurrence of each character.
+
 -Traverse the string using the right pointer.
+
 -If the current character is already present within the current window, move the left pointer to the position after its previous occurrence.
+
 -Update the last occurrence of the current character.
+
 -Calculate the current window length and update the maximum length whenever a longer substring is found.
+
 -Continue until the entire string has been processed.
 
 3. Time Complexity
