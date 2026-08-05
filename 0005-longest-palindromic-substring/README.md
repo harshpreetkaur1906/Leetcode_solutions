@@ -1,25 +1,22 @@
-<h2><a href="https://leetcode.com/problems/longest-palindromic-substring">5. Longest Palindromic Substring</a></h2><h3>Medium</h3><hr><p>Given a string <code>s</code>, return <em>the longest</em> <span data-keyword="palindromic-string"><em>palindromic</em></span> <span data-keyword="substring-nonempty"><em>substring</em></span> in <code>s</code>.</p>
+Longest Palindromic Substring
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+1. Intuition
 
-<pre>
-<strong>Input:</strong> s = &quot;babad&quot;
-<strong>Output:</strong> &quot;bab&quot;
-<strong>Explanation:</strong> &quot;aba&quot; is also a valid answer.
-</pre>
+A palindrome reads the same forwards and backwards. Instead of checking every possible substring, I expanded around each character and every pair of adjacent characters to find the longest palindrome. This approach efficiently checks both odd and even length palindromes.
 
-<p><strong class="example">Example 2:</strong></p>
+2. Approach
+   
+Traverse every character in the string.
+Treat each character as the center of an odd-length palindrome.
+Treat every pair of adjacent characters as the center of an even-length palindrome.
+Expand outward while the characters on both sides are equal.
+Keep updating the starting position and maximum length whenever a longer palindrome is found.
+Return the longest palindromic substring.
 
-<pre>
-<strong>Input:</strong> s = &quot;cbbd&quot;
-<strong>Output:</strong> &quot;bb&quot;
-</pre>
+3. Time Complexity
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+O(n²), where n is the length of the string.
 
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
-	<li><code>s</code> consist of only digits and English letters.</li>
-</ul>
+4. Space Complexity
+
+O(1), since only a few variables are used.
