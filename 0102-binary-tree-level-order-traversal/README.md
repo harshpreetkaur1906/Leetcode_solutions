@@ -1,9 +1,10 @@
  102. Binary Tree Level Order Traversal
- 1. Intuition
+  
+  Intuition
 
 The problem requires traversing the binary tree level by level from top to bottom. Since all nodes at the same level need to be processed before moving to the next level, I chose the Breadth First Search (BFS) approach. Using a queue makes it easy to maintain the order of traversal.
 
- 2. Approach
+  Approach
 
 - Check whether the tree is empty.
 - Create a queue and insert the root node.
