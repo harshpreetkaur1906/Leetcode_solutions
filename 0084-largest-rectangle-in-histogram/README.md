@@ -1,26 +1,51 @@
-<h2><a href="https://leetcode.com/problems/largest-rectangle-in-histogram">84. Largest Rectangle in Histogram</a></h2><h3>Hard</h3><hr><p>Given an array of integers <code>heights</code> representing the histogram&#39;s bar height where the width of each bar is <code>1</code>, return <em>the area of the largest rectangle in the histogram</em>.</p>
+# Largest Rectangle in Histogram
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/01/04/histogram.jpg" style="width: 522px; height: 242px;" />
-<pre>
-<strong>Input:</strong> heights = [2,1,5,6,2,3]
-<strong>Output:</strong> 10
-<strong>Explanation:</strong> The above is a histogram where width of each bar is 1.
-The largest rectangle is shown in the red area, which has an area = 10 units.
-</pre>
+## 💡 Intuition
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/01/04/histogram-1.jpg" style="width: 202px; height: 362px;" />
-<pre>
-<strong>Input:</strong> heights = [2,4]
-<strong>Output:</strong> 4
-</pre>
+The goal is to find the largest rectangle that can be formed using consecutive bars of a histogram.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+A **monotonic increasing stack** is used to keep track of bar indices. When a smaller bar is encountered, the taller bars in the stack can no longer extend further, so their rectangle areas are calculated.
 
-<ul>
-	<li><code>1 &lt;= heights.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= heights[i] &lt;= 10<sup>4</sup></code></li>
-</ul>
+## 🔹 Approach
+
+1. Traverse the histogram from left to right.
+2. Store indices of bars in an increasing-height stack.
+3. When the current height is smaller than the stack's top height, pop the taller bars.
+4. For each popped bar, calculate:
+
+   * **Height** = height of the popped bar
+   * **Width** = distance between the nearest smaller bars
+   * **Area** = `Height × Width`
+5. Keep updating the maximum area.
+6. Process the remaining bars using an extra imaginary bar of height `0`.
+
+### Example
+
+```text
+Input:  [2, 1, 5, 6, 2, 3]
+Output: 10
+```
+
+The largest rectangle is formed by heights `5` and `6`.
+
+```text
+Height = 5
+Width  = 2
+Area   = 5 × 2 = 10
+```
+
+## ⏱️ Complexity
+
+* **Time Complexity:** `O(n)` — Each bar is pushed and popped from the stack at most once.
+* **Space Complexity:** `O(n)` — The stack can store up to `n` indices.
+
+## 🛠️ Technologies
+
+* C++
+* Java
+* Python
+
+## 🎯 Key Concept
+
+**Monotonic Stack** — efficiently finds the boundaries required to calculate the largest rectangle area.
+
