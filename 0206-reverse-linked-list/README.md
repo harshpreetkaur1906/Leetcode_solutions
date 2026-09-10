@@ -1,34 +1,28 @@
-<h2><a href="https://leetcode.com/problems/reverse-linked-list">206. Reverse Linked List</a></h2><h3>Easy</h3><hr><p>Given the <code>head</code> of a singly linked list, reverse the list, and return <em>the reversed list</em>.</p>
+206. Reverse Linked List
+Intuition
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/rev1ex1.jpg" style="width: 542px; height: 222px;" />
-<pre>
-<strong>Input:</strong> head = [1,2,3,4,5]
-<strong>Output:</strong> [5,4,3,2,1]
-</pre>
+To reverse a linked list, every node's next pointer needs to point to the previous node instead of the next node.
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/rev1ex2.jpg" style="width: 182px; height: 222px;" />
-<pre>
-<strong>Input:</strong> head = [1,2]
-<strong>Output:</strong> [2,1]
-</pre>
+Approach
 
-<p><strong class="example">Example 3:</strong></p>
+Use three pointers:
 
-<pre>
-<strong>Input:</strong> head = []
-<strong>Output:</strong> []
-</pre>
+prev — previous node
+curr — current node
+next — temporarily stores the next node
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+For each node:
 
-<ul>
-	<li>The number of nodes in the list is the range <code>[0, 5000]</code>.</li>
-	<li><code>-5000 &lt;= Node.val &lt;= 5000</code></li>
-</ul>
+Save the next node.
+Reverse the current node's pointer.
+Move prev and curr forward.
 
-<p>&nbsp;</p>
-<p><strong>Follow up:</strong> A linked list can be reversed either iteratively or recursively. Could you implement both?</p>
+At the end, prev becomes the new head.
+
+Time Complexity
+
+O(n) — Every node is visited once.
+
+Space Complexity
+
+O(1) — Only a few pointers are used.
