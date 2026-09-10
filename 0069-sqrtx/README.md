@@ -1,31 +1,34 @@
-<h2><a href="https://leetcode.com/problems/sqrtx">69. Sqrt(x)</a></h2><h3>Easy</h3><hr><p>Given a non-negative integer <code>x</code>, return <em>the square root of </em><code>x</code><em> rounded down to the nearest integer</em>. The returned integer should be <strong>non-negative</strong> as well.</p>
+LeetCode 69 — Sqrt(x)
+🧠 Intuition
 
-<p>You <strong>must not use</strong> any built-in exponent function or operator.</p>
+The problem is to find the integer square root of a non-negative number x.
 
-<ul>
-	<li>For example, do not use <code>pow(x, 0.5)</code> in c++ or <code>x ** 0.5</code> in python.</li>
-</ul>
+We need the largest integer n such that:
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+n × n ≤ x
 
-<pre>
-<strong>Input:</strong> x = 4
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> The square root of 4 is 2, so we return 2.
-</pre>
+Since the possible answers are sorted, we can use Binary Search instead of checking every number.
 
-<p><strong class="example">Example 2:</strong></p>
+🔍 Approach
+Set the search range from 1 to x.
+Find the middle value.
+Check whether mid × mid is less than, equal to, or greater than x.
+If mid × mid == x, return mid.
+If mid × mid < x, search for a larger value.
+Otherwise, search for a smaller value.
+Return the largest valid value.
+⏱️ Time Complexity
 
-<pre>
-<strong>Input:</strong> x = 8
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> The square root of 8 is 2.82842..., and since we round it down to the nearest integer, 2 is returned.
-</pre>
+O(log x)
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Binary Search reduces the search range by half in every iteration.
 
-<ul>
-	<li><code>0 &lt;= x &lt;= 2<sup>31</sup> - 1</code></li>
-</ul>
+💾 Space Complexity
+
+O(1)
+
+Only a few variables are used.
+
+📌 Key Takeaway
+
+Binary Search efficiently finds the largest integer whose square is less than or equal to x.
