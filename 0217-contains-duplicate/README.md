@@ -1,42 +1,37 @@
-<h2><a href="https://leetcode.com/problems/contains-duplicate">217. Contains Duplicate</a></h2><h3>Easy</h3><hr><p>Given an integer array <code>nums</code>, return <code>true</code> if any value appears <strong>at least twice</strong> in the array, and return <code>false</code> if every element is distinct.</p>
+LeetCode Problem 217 — Contains Duplicate
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+Intuition
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,1]</span></p>
+The main idea is to determine whether any number appears more than once in the array.
 
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
+If we keep track of the numbers we have already seen, then whenever we encounter a number that is already present, we immediately know that the array contains a duplicate.
 
-<p><strong>Explanation:</strong></p>
+A hash set is ideal for this because it allows us to check whether an element already exists in approximately constant time.
 
-<p>The element 1 occurs at the indices 0 and 3.</p>
-</div>
+For example:
 
-<p><strong class="example">Example 2:</strong></p>
+[1, 2, 3, 1]
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,4]</span></p>
+See 1 → store it
+See 2 → store it
+See 3 → store it
+See 1 → already present → duplicate found
+Approach
+Create an empty hash set.
+Traverse the array from left to right.
+For every element:
+Check whether it is already present in the set.
+If yes, return true.
+Otherwise, insert it into the set.
+If the complete array is traversed without finding a duplicate, return false.
+Time Complexity
 
-<p><strong>Output:</strong> <span class="example-io">false</span></p>
+O(n)
 
-<p><strong>Explanation:</strong></p>
+Each element is processed once, and hash-set lookup/insertion takes O(1) on average.
 
-<p>All elements are distinct.</p>
-</div>
+Space Complexity
 
-<p><strong class="example">Example 3:</strong></p>
+O(n)
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,1,1,3,3,4,3,2,4,2]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-</ul>
+In the worst case, all elements are unique and must be stored in the hash set.
