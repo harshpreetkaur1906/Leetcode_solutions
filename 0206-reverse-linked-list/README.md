@@ -1,4 +1,5 @@
 206. Reverse Linked List
+
 Intuition
 
 To reverse a linked list, every node's next pointer needs to point to the previous node instead of the next node.
