@@ -1,26 +1,25 @@
-<h2><a href="https://leetcode.com/problems/n-queens-ii">52. N-Queens II</a></h2><h3>Hard</h3><hr><p>The <strong>n-queens</strong> puzzle is the problem of placing <code>n</code> queens on an <code>n x n</code> chessboard such that no two queens attack each other.</p>
+LeetCode 52 — N-Queens II
+🧠 Intuition
 
-<p>Given an integer <code>n</code>, return <em>the number of distinct solutions to the&nbsp;<strong>n-queens puzzle</strong></em>.</p>
+This problem is a variation of N-Queens. Instead of returning all possible arrangements, we only need to find the number of valid solutions.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/11/13/queens.jpg" style="width: 600px; height: 268px;" />
-<pre>
-<strong>Input:</strong> n = 4
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> There are two distinct solutions to the 4-queens puzzle as shown.
-</pre>
+The same backtracking technique can be used to place queens row by row while ensuring that no two queens share the same column or diagonal.
 
-<p><strong class="example">Example 2:</strong></p>
+🔍 Approach
+Start with the first row.
+Try placing a queen in every possible column.
+Check whether the position is safe.
+If it is safe, move to the next row.
+If all queens are successfully placed, increase the solution count.
+Backtrack and continue searching for other valid arrangements.
+⏱️ Time Complexity
 
-<pre>
-<strong>Input:</strong> n = 1
-<strong>Output:</strong> 1
-</pre>
+O(N!) approximately.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+💾 Space Complexity
 
-<ul>
-	<li><code>1 &lt;= n &lt;= 9</code></li>
-</ul>
+O(N) for maintaining the board state, columns, and diagonals.
+
+📌 Key Takeaway
+
+N-Queens II uses backtracking to count all possible valid arrangements without storing the actual boards.
