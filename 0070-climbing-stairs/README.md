@@ -1,32 +1,37 @@
-<h2><a href="https://leetcode.com/problems/climbing-stairs">70. Climbing Stairs</a></h2><h3>Easy</h3><hr><p>You are climbing a staircase. It takes <code>n</code> steps to reach the top.</p>
+LeetCode 70 — Climbing Stairs
+🧠 Intuition
 
-<p>Each time you can either climb <code>1</code> or <code>2</code> steps. In how many distinct ways can you climb to the top?</p>
+To reach the top of a staircase, we can take either 1 step or 2 steps at a time.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+For any step n, there are only two possibilities for the last move:
 
-<pre>
-<strong>Input:</strong> n = 2
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> There are two ways to climb to the top.
-1. 1 step + 1 step
-2. 2 steps
-</pre>
+Reach it from step n - 1 using 1 step.
+Reach it from step n - 2 using 2 steps.
 
-<p><strong class="example">Example 2:</strong></p>
+Therefore:
 
-<pre>
-<strong>Input:</strong> n = 3
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> There are three ways to climb to the top.
-1. 1 step + 1 step + 1 step
-2. 1 step + 2 steps
-3. 2 steps + 1 step
-</pre>
+ways(n) = ways(n - 1) + ways(n - 2)
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+This follows the Fibonacci sequence pattern.
 
-<ul>
-	<li><code>1 &lt;= n &lt;= 45</code></li>
-</ul>
+🔍 Approach
+Handle the base cases.
+Keep track of the number of ways to reach the previous two steps.
+Calculate the number of ways for the current step by adding the previous two values.
+Continue until reaching the nth step.
+Return the number of ways.
+⏱️ Time Complexity
+
+O(N)
+
+We calculate each step only once.
+
+💾 Space Complexity
+
+O(1)
+
+Only the previous two results are stored.
+
+📌 Key Takeaway
+
+The problem follows the Fibonacci pattern because every step can be reached from either one step below or two steps below.
