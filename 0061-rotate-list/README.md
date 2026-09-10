@@ -1,25 +1,32 @@
-<h2><a href="https://leetcode.com/problems/rotate-list">61. Rotate List</a></h2><h3>Medium</h3><hr><p>Given the <code>head</code> of a linked&nbsp;list, rotate the list to the right by <code>k</code> places.</p>
+LeetCode 61 — Rotate List
+🧠 Intuition
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/11/13/rotate1.jpg" style="width: 450px; height: 191px;" />
-<pre>
-<strong>Input:</strong> head = [1,2,3,4,5], k = 2
-<strong>Output:</strong> [4,5,1,2,3]
-</pre>
+The task is to rotate a linked list to the right by k positions.
 
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/11/13/roate2.jpg" style="width: 305px; height: 350px;" />
-<pre>
-<strong>Input:</strong> head = [0,1,2], k = 4
-<strong>Output:</strong> [2,0,1]
-</pre>
+Instead of moving nodes one by one, we can first connect the last node to the first node, making the list circular.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Then, by finding the new tail and breaking the circular connection, we can perform the rotation efficiently.
 
-<ul>
-	<li>The number of nodes in the list is in the range <code>[0, 500]</code>.</li>
-	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
-	<li><code>0 &lt;= k &lt;= 2 * 10<sup>9</sup></code></li>
-</ul>
+🔍 Approach
+Handle the cases where the list is empty, has one node, or k is zero.
+Find the length of the linked list.
+Reduce k using k % length because rotating by the list length produces the same list.
+Connect the last node to the head to form a circular list.
+Find the new tail after rotation.
+Make the node after the new tail the new head.
+Break the circular connection.
+⏱️ Time Complexity
+
+O(N)
+
+The list is traversed a constant number of times.
+
+💾 Space Complexity
+
+O(1)
+
+No extra data structure is required.
+
+📌 Key Takeaway
+
+Making the linked list circular allows the rotation to be performed efficiently without moving each node individually.
