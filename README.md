@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0283-move-zeroes) |
+| [0416-partition-equal-subset-sum](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0503-next-greater-element-ii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0739-daily-temperatures) |
 | [1588-sum-of-all-odd-length-subarrays](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/1588-sum-of-all-odd-length-subarrays) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0337-house-robber-iii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0337-house-robber-iii) |
+| [0416-partition-equal-subset-sum](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0416-partition-equal-subset-sum) |
 ## Manacher
 |  |
 | ------- |
@@ -251,4 +253,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0337-house-robber-iii](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0337-house-robber-iii) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0416-partition-equal-subset-sum) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/harshpreetkaur1906/Leetcode_solutions/tree/master/0416-partition-equal-subset-sum) |
 <!---LeetCode Topics End-->
