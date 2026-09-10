@@ -1,35 +1,32 @@
-<h2><a href="https://leetcode.com/problems/search-insert-position">35. Search Insert Position</a></h2><h3>Easy</h3><hr><p>Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.</p>
+🧠 Intuition
 
-<p>You must&nbsp;write an algorithm with&nbsp;<code>O(log n)</code> runtime complexity.</p>
+The array is sorted, so Binary Search can be used to efficiently find the target or determine where it should be inserted.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+At every step, the middle element is compared with the target. Based on the comparison, half of the search space is eliminated.
 
-<pre>
-<strong>Input:</strong> nums = [1,3,5,6], target = 5
-<strong>Output:</strong> 2
-</pre>
+If the target is found, its index is returned. If it is not found, the left pointer eventually reaches the position where the target should be inserted.
 
-<p><strong class="example">Example 2:</strong></p>
+🔍 Approach
+Start with two pointers, left at the beginning and right at the end of the array.
+Find the middle element of the current search range.
+Compare the middle element with the target:
+If both are equal, return the middle index.
+If the middle element is smaller than the target, search in the right half.
+If the middle element is greater than the target, search in the left half.
+Continue the process until the search range becomes empty.
+If the target is not found, return the left pointer because it represents the correct insertion position.
+⏱️ Time Complexity
 
-<pre>
-<strong>Input:</strong> nums = [1,3,5,6], target = 2
-<strong>Output:</strong> 1
-</pre>
+O(log n)
 
-<p><strong class="example">Example 3:</strong></p>
+Binary Search reduces the search space by half after every iteration.
 
-<pre>
-<strong>Input:</strong> nums = [1,3,5,6], target = 7
-<strong>Output:</strong> 4
-</pre>
+💾 Space Complexity
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+O(1)
 
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
-	<li><code>nums</code> contains <strong>distinct</strong> values sorted in <strong>ascending</strong> order.</li>
-	<li><code>-10<sup>4</sup> &lt;= target &lt;= 10<sup>4</sup></code></li>
-</ul>
+Only a constant amount of extra space is used for the pointers and middle index.
+
+📌 Key Takeaway
+
+Since the array is sorted, Binary Search allows us to find the target or its correct insertion position efficiently in O(log n) time.
