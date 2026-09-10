@@ -1,48 +1,62 @@
-<h2><a href="https://leetcode.com/problems/implement-queue-using-stacks">232. Implement Queue using Stacks</a></h2><h3>Easy</h3><hr><p>Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (<code>push</code>, <code>peek</code>, <code>pop</code>, and <code>empty</code>).</p>
+LeetCode Problem 232 — Implement Queue using Stacks
+Intuition
 
-<p>Implement the <code>MyQueue</code> class:</p>
+A queue follows FIFO:
 
-<ul>
-	<li><code>void push(int x)</code> Pushes element x to the back of the queue.</li>
-	<li><code>int pop()</code> Removes the element from the front of the queue and returns it.</li>
-	<li><code>int peek()</code> Returns the element at the front of the queue.</li>
-	<li><code>boolean empty()</code> Returns <code>true</code> if the queue is empty, <code>false</code> otherwise.</li>
-</ul>
+First In, First Out
 
-<p><strong>Notes:</strong></p>
+A stack, however, follows LIFO:
 
-<ul>
-	<li>You must use <strong>only</strong> standard operations of a stack, which means only <code>push to top</code>, <code>peek/pop from top</code>, <code>size</code>, and <code>is empty</code> operations are valid.</li>
-	<li>Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack&#39;s standard operations.</li>
-</ul>
+Last In, First Out
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+To make stacks behave like a queue, we can use two stacks:
 
-<pre>
-<strong>Input</strong>
-[&quot;MyQueue&quot;, &quot;push&quot;, &quot;push&quot;, &quot;peek&quot;, &quot;pop&quot;, &quot;empty&quot;]
-[[], [1], [2], [], [], []]
-<strong>Output</strong>
-[null, null, null, 1, 1, false]
+input stack → used when adding elements
+output stack → used when removing or viewing the front element
 
-<strong>Explanation</strong>
-MyQueue myQueue = new MyQueue();
-myQueue.push(1); // queue is: [1]
-myQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)
-myQueue.peek(); // return 1
-myQueue.pop(); // return 1, queue is [2]
-myQueue.empty(); // return false
-</pre>
+When the output stack is empty, transfer all elements from the input stack to the output stack.
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+This reverses their order.
 
-<ul>
-	<li><code>1 &lt;= x &lt;= 9</code></li>
-	<li>At most <code>100</code>&nbsp;calls will be made to <code>push</code>, <code>pop</code>, <code>peek</code>, and <code>empty</code>.</li>
-	<li>All the calls to <code>pop</code> and <code>peek</code> are valid.</li>
-</ul>
+For example, if elements are inserted as:
 
-<p>&nbsp;</p>
-<p><strong>Follow-up:</strong> Can you implement the queue such that each operation is <strong><a href="https://en.wikipedia.org/wiki/Amortized_analysis" target="_blank">amortized</a></strong> <code>O(1)</code> time complexity? In other words, performing <code>n</code> operations will take overall <code>O(n)</code> time even if one of those operations may take longer.</p>
+1 → 2 → 3
+
+Input stack contains:
+
+[1, 2, 3]
+
+After transferring them to the output stack, the order becomes:
+
+[3, 2, 1]
+
+Now 1, the first inserted element, is on top and can be removed first.
+
+Approach
+Push
+
+Simply insert the new element into the input stack.
+
+Pop
+If the output stack is empty, transfer all elements from the input stack to the output stack.
+Remove the top element from the output stack.
+Peek
+If the output stack is empty, transfer elements from the input stack.
+Return the top element of the output stack without removing it.
+Empty
+
+The queue is empty only when both stacks are empty.
+
+Time Complexity
+Push: O(1)
+Pop: O(1) amortized
+Peek: O(1) amortized
+Empty: O(1)
+
+Although transferring elements can take O(n), each element is transferred at most once from one stack to the other, giving an amortized O(1) complexity per operation.
+
+Space Complexity
+
+O(n)
+
+The two stacks together can contain all n elements.
